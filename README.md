@@ -2,44 +2,49 @@
 
 ## TECNOLOGIAS USADAS
 
-<hr>
-
 ## NODE.JS
 
-### Download and install fnm:
+### Baixar o fnm:
+```bash
+
 winget install Schniz.fnm
 
-### Download and install Node.js:
+```
+### Baixar o Node.js:
+```bash
 fnm install 22
-
-### Verify the Node.js version:
+```
+### Verificar a Node.js version:
+```bash
 node -v # Should print "v22.14.0".
-
-### Verify npm version:
+```
+### Verificar a versão do Npm:
+```bash
 npm -v # Should print "10.9.2".
-
+```
 
 ## NESTJS
 
-### Install Nest
-
+### Instalar o Nest
+```bash
 npm i -g @nestjs/cli
-
-### Run aplicattion
-
+```
+### Rodar o backend da aplicação
+```bash
 nest start
 nest start:dev
-
+```
 ## PostgresSQL
 
-Done using Supabase: https://supabase.com
+Feito com Supabase: https://supabase.com
 
 ## PRISMA
 
-### Install prisma as DEVELOPER 
-
+### Instalar o prisma no modo desenvolvedor 
+```bash
 npm install prisma --save-dev
-
-### Set up Prisma ORM 
-
-npx prisma init 
+```
+### Configurar ORM do prisma 
+```bash
+npx prisma init
+```
