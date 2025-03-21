@@ -1,5 +1,7 @@
 # Portfolio_harryc
 
+PROJETO EM ANDAMENTO
+
 ## TECNOLOGIAS USADAS
 
 ## NODE.JS
