@@ -48,3 +48,5 @@ npm install prisma --save-dev
 ```bash
 npx prisma init
 ```
+
+Utilizando N8N e fly.io para fazer o deploy
