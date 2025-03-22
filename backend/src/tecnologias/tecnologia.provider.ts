@@ -1,25 +1,24 @@
-import { Get, Injectable } from '@nestjs/common';
-import { PrismaProvider } from 'src/db/prisma.provider';
-import { Tecnologia } from "@core";
+import { Get, Injectable } from '@nestjs/common'
+import { PrismaProvider } from 'src/db/prisma.provider'
+import { Tecnologia } from '@core'
 
 @Injectable()
 export class TecnologiaProvider {
-
     constructor(private readonly prisma: PrismaProvider) {}
-  
+
     async obterTodas(): Promise<Tecnologia[]> {
-        return this.prisma.tecnologias.findMany();
+        return this.prisma.tecnologias.findMany()
     }
 
-    async obterDestaques(): Promise<Tecnologia[]> { // Obter tecnologias em destaque (destaque: true)
+    async obterDestaques(): Promise<Tecnologia[]> {
+        // Obter tecnologias em destaque (destaque: true)
         return this.prisma.tecnologias.findMany({
             where: {
-                destaque: true
-            }
-        });
+                destaque: true,
+            },
+        })
     }
 }
-
 
 /* Este trecho de código define a classe TecnologiaProvider, que é um provedor no contexto de uma aplicação NestJS. O objetivo principal dessa classe é encapsular a lógica de acesso ao banco de dados relacionada ao recurso "tecnologias". Abaixo está uma explicação detalhada:
 

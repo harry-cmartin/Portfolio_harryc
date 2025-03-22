@@ -1,18 +1,15 @@
-import Tecnologia from "../tecnologia/Tecnologia"
-import { Nivel } from "./Nivel"
-import { Tipo } from "./Tipo"
+import Tecnologia from '../tecnologia/Tecnologia'
+import { Nivel } from './Nivel'
+import { Tipo } from './Tipo'
 
-export default interface Projeto{
-
+export default interface Projeto {
     id: number
-    nome : string  
-    descricao : string
-    imagem : string[]
-    tipo : Tipo
-    nivel : Nivel
+    nome: string
+    descricao: string
+    imagem: string[]
+    tipo: Tipo
+    nivel: Nivel
     repositorio: string
-    destaque : boolean
+    destaque: boolean
     tecnologias: Tecnologia[]
-
-
 }

@@ -1,11 +1,7 @@
-export default interface Tecnologia{
-
+export default interface Tecnologia {
     id: number
-    nome : string
-    descricao : string
-    imagem : string
-    destaque : boolean
-
-
-
+    nome: string
+    descricao: string
+    imagem: string
+    destaque: boolean
 }

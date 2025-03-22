@@ -1,0 +1,21 @@
+{
+    "name": "portfolio_harryc",
+    "version": "1.0.0",
+    "description": "PROJETO EM ANDAMENTO",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write .",
+        "dev": "npx concurrently \"cd backend && npm run start:dev\" \"cd frontend && npm run dev\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/harry-cmartin/Portfolio_harryc.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/harry-cmartin/Portfolio_harryc/issues"
+    },
+    "homepage": "https://github.com/harry-cmartin/Portfolio_harryc#readme"
+}

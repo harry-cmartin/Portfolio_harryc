@@ -1,26 +1,20 @@
-import { Controller, Get } from '@nestjs/common';
-import { Tecnologia } from '@core';
-import { TecnologiaProvider } from './tecnologia.provider';
-
+import { Controller, Get } from '@nestjs/common'
+import { Tecnologia } from '@core'
+import { TecnologiaProvider } from './tecnologia.provider'
 
 @Controller('tecnologias')
 export class TecnologiaController {
-
-    constructor(private readonly repo: TecnologiaProvider ) {}
+    constructor(private readonly repo: TecnologiaProvider) {}
 
     @Get()
     async obterTodas(): Promise<Tecnologia[]> {
-        return this.repo.obterTodas();
+        return this.repo.obterTodas()
     }
     @Get('destaques')
-        
     async obterDestaques(): Promise<Tecnologia[]> {
-            return this.repo.obterDestaques();
+        return this.repo.obterDestaques()
     }
-    
-
 }
-
 
 //Este trecho de código define a classe TecnologiaController, que faz parte de uma aplicação construída com o framework NestJS. O objetivo principal dessa classe é atuar como um controlador responsável por gerenciar as requisições HTTP relacionadas ao recurso "tecnologias". Abaixo está uma explicação detalhada:
 

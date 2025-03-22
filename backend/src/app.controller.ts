@@ -1,10 +1,9 @@
-import { Controller, Get } from '@nestjs/common';
-
+import { Controller, Get } from '@nestjs/common'
 
 @Controller()
 export class AppController {
-  @Get()
-  tico(): string {
-    return 'teco'
-  }
+    @Get()
+    tico(): string {
+        return 'teco'
+    }
 }
