@@ -64,8 +64,10 @@ npm install prisma --save-dev
 ```bash
 npx prisma init
 ```
-
-Utilizando N8N e fly.io para fazer o deploy
+ 
+Utilizando N8N 
+fly.io para fazer o deploy do backend
+vercel para o deploy do frontend
 
 npm i react-markdown rehype-raw remark-gfm
 
@@ -74,5 +76,9 @@ npx shadcn@latest init
 npx shadcn@latest add carousel
 
 npm install -D @tailwindcss/typography
+
+
+npx shadcn@latest add popover
+npm i @tabler/icons-react
 
 https://shields.io/badges/
