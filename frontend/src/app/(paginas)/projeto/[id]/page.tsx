@@ -4,7 +4,8 @@ import CarrosselImagens from "@/components/shared/CarroselImagens"
 import Container from "@/components/shared/Container"
 import Tecnologias from "@/components/tecnologias/tecnologias"
 import { obterReadme } from "@/functions/github"
-import ConteudoMD from "@/components/shared/ConteudoMD"
+
+import Readme from "@/components/projetos/Readme"
 
 
 // export const revalidate = 3600
@@ -24,7 +25,7 @@ export default async function PaginaProjeto(props: { params: Promise<{ id: strin
 				<h1 className="text-3xl font-bold self-start">{projeto.nome}</h1>
 				<CarrosselImagens imagens={projeto.imagens.slice(1)} />
 				<Tecnologias valores ={projeto.tecnologias} tamanhoMenor />
-                <ConteudoMD markdown={readme} />
+                <Readme markdown={readme} />
 			</Container>
 		</div>
 	)

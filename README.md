@@ -73,4 +73,6 @@ npx shadcn@latest init
 
 npx shadcn@latest add carousel
 
+npm install -D @tailwindcss/typography
+
 https://shields.io/badges/
