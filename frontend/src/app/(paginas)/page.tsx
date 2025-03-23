@@ -1,6 +1,18 @@
-import Cabecalho from '../components/shared/Cabecalho'
-import Container from '../components/shared/Container'
+import Curriculo from '@/components/curriculo'
+import Principal from '@/components/landing/Principal'
+import Container from '@/components/shared/Container'
+import { obterTecnologias } from '@/functions/tecnologias'
 
-export default function Home() {
-    return <Cabecalho />
+export default async function Home() {
+
+    const tecnologias = await obterTecnologias()
+
+    return (
+        <div>
+            <Principal />
+            <Container classnames='py-20'>
+            <Curriculo tecnologias={tecnologias.todas} />
+            </Container>
+        </div>
+    )
 }
