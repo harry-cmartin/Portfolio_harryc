@@ -12,7 +12,7 @@ export default async function Home() {
     return (
         <div>
             <Principal tecnologias={tecnologias.destaques} />
-            <Container classnames="py-20">
+            <Container classnames="py-16 flex flex-col items-center gap-10">
             <Projetos titulo="Destaque" lista={projetos.destaque} />
 				<Projetos titulo="Web" lista={projetos.web} />
 				<Projetos titulo="Mobile" lista={projetos.mobile} />

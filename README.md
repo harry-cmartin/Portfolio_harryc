@@ -67,4 +67,10 @@ npx prisma init
 
 Utilizando N8N e fly.io para fazer o deploy
 
+npm i react-markdown rehype-raw remark-gfm
+
+npx shadcn@latest init 
+
+npx shadcn@latest add carousel
+
 https://shields.io/badges/
