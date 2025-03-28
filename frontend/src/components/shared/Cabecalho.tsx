@@ -9,7 +9,7 @@ export default function Cabecalho() {
             <Container classnames="flex-1 flex justify-center sm:justify-between items-center">
                 <div className='flex items-center gap-20'>
                     <Link href="/" className="hidden sm:block">
-                        <Image src="/logo.svg" alt="Logo" width={80} height={0} />
+                        <Image src="/preview.png" alt="Logo" width={80} height={0} />
                     </Link>
                     <Menu />
                 </div>

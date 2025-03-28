@@ -12,7 +12,7 @@ export default function Principal(props: PrincipalProps) {
             className="
         
         flex flex-col items-center justify-center h-[500px]
-        bg-[url('/principal.jpg')] bg-cover bg-center
+        bg-[url('/image.png')] bg-cover bg-center
         
         "
         >

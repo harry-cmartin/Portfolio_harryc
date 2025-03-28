@@ -19,7 +19,7 @@ export default function MiniCV() {
 					<span>Engenheiro de Software / Dev</span>
 				</div>
 				<p className="text-sm text-center md:text-left lg:text-center xl:text-left">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dicta accusantium veniam ducimus totam cumque magni reiciendis, ex harum quo quas commodi, laborum labore, beatae odio ut? Nam, saepe assumenda!
+				Olá, sou Harryson Campos, um engenheiro de software com experiência diversificada em habilidades e tecnologias como Java, SQL, SCRUM, XP, Python, modelagem de dados, testes automatizados, entre outras. Atualmente, resido em Brasília e estou concluindo meu bacharelado em Engenharia de Software na Universidade de Brasília.
 				</p>
 			</div>
 		</div>
