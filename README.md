@@ -81,7 +81,7 @@ npm -v # Should print "10.9.2".
 8. Após importar o fluxo, clique no primeiro nó, acesse `webhooks url`, clique em `Production URL` e copie o valor dessa URL.
 **Obs: Lembre-se de ativar o workflow no n8n**
 
-9. Crie um arquivo `.env` na pasta web e preencha com as seguintes informações, sendo que a URL da API é a URL do backend e a segunda variável deve ter como valor a URL que extraimos no n8n:
+9. Crie um arquivo `.env` na pasta web e preencha com as seguintes informações, sendo que a URL da API é a URL do backend e a segunda variável deve ter como valor a URL que extraimos no n8n, podendo tambem ser local:
 
     ```
     NEXT_PUBLIC_API_URL=
