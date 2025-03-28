@@ -4,6 +4,7 @@
 ## TECNOLOGIAS USADAS
 
 <center>
+    
     <div data-badges>
     <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
         <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
