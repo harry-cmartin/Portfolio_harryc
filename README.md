@@ -1,5 +1,6 @@
 # 📌 Portfolio_harryc
 
+PROJETO EM CONSTANTE ATUALIAZAÇÃO
 
 ## TECNOLOGIAS USADAS
 
