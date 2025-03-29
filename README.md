@@ -94,4 +94,4 @@ npm -v # Should print "10.9.2".
 
 
 ### Deploy do backend: fly.io
-### Deploy do frontem: Vercel
+### Deploy do frontend: Vercel
