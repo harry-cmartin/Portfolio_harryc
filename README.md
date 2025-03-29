@@ -93,5 +93,5 @@ npm -v # Should print "10.9.2".
 11. Rode o comando `npm run dev` para iniciar o projeto
 
 
-
-
+### Deploy do backend: fly.io
+### Deploy do frontem: Vercel
