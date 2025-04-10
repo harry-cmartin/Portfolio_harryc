@@ -4,6 +4,10 @@ PROJETO EM CONSTANTE ATUALIZAÇÃO
 
 PROJETOS EM DESTAQUE SÃO PARA EXEMPLO
 
+![Image](https://github.com/user-attachments/assets/bf545ea1-6c82-425c-bdec-eb64fea079ab)
+
+
+
 ## TECNOLOGIAS USADAS
 
 <center>
