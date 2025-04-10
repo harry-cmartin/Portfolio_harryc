@@ -4,7 +4,14 @@ PROJETO EM CONSTANTE ATUALIZAÇÃO
 
 PROJETOS EM DESTAQUE SÃO PARA EXEMPLO
 
-![Image](https://github.com/user-attachments/assets/bf545ea1-6c82-425c-bdec-eb64fea079ab)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/94828e0a-7656-4ad2-9d80-3fd163f8ee2c" alt="GIF 1" width="500" />
+  <img src="https://github.com/user-attachments/assets/c17aa805-d5d0-4c3b-87b7-e58d38000613" alt="GIF 2" width="500" />
+  <img src="https://github.com/user-attachments/assets/fc8a6694-6d55-4e7e-8939-786fc8907a81" alt="GIF 3" width="500" />
+  <img src="https://github.com/user-attachments/assets/bf545ea1-6c82-425c-bdec-eb64fea079ab" alt="GIF 4" width="500" />
+</p>
+
+
 
 
 
